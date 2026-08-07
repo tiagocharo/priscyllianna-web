@@ -16,9 +16,9 @@ export const navLinks = [
 ] as const;
 
 export const hero = {
-  headline: "Arquitetura e interiores\ncom design autoral e funcionalidade.",
+  headline: "Ambientes ousados,\ncriativos e únicos.",
   subheadline:
-    "Projetos que refletem a sua personalidade e valorizam cada detalhe do seu espaço.",
+    "MBA em Iluminação e Interiores | +19 anos de experiência transformando espaços.",
   primaryCta: { label: "Conheça meus projetos", href: "#projetos" },
   secondaryCta: { label: "Agende uma consultoria", href: "#contato" },
 } as const;
@@ -123,7 +123,7 @@ export const partners = {
 export const stats = {
   title: "Números que contam minha trajetória",
   items: [
-    { value: "8+", label: "Anos de experiência" },
+    { value: "19+", label: "Anos de experiência" },
     { value: "50+", label: "Projetos entregues" },
     { value: "3.000+", label: "m² projetados" },
     { value: "100%", label: "Clientes satisfeitos" },
