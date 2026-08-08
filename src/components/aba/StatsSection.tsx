@@ -41,7 +41,7 @@ function AnimatedStat({
   }, [inView, target, count]);
 
   return (
-    <motion.div ref={ref} variants={fadeUp} className="text-center md:text-left">
+    <motion.div ref={ref} variants={fadeUp} className="text-center">
       {target !== null ? (
         <motion.p className="font-display mb-2 text-4xl text-background md:text-5xl lg:text-6xl">
           {display}
@@ -77,7 +77,7 @@ export function StatsSection() {
           whileInView="visible"
           viewport={viewportOnce}
           variants={staggerContainer}
-          className="grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-6 lg:gap-8"
+          className="grid grid-cols-2 gap-10 md:grid-cols-4 lg:gap-8 place-items-center"
         >
           {stats.items.map((item) => (
             <AnimatedStat
